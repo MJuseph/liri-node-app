@@ -108,19 +108,6 @@ function doThis(value) {
         }
         console.log(data);
         eval(data);
-        // Then split it by commas (to make it more readable)
-        // var dataArr = data.split(",");
-        
-            // var dataArr = process.argv.slice(3).join(" ");
-            
-        // We will then re-display the content as an array for later use.
-        // console.log(dataArr);
-        // var dataArr = data.slice(3).join(" ");
-        // var dataArr = data.split(',');
-        // eval(data).search();
-        // console.log(dataArr);
-        // spotifySong(dataArr[0], dataArr[1]);
-        // spotifySong(dataArr);
 
     })
 }
